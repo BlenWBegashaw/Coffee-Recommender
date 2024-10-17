@@ -1,5 +1,5 @@
 # Coffee-Recommender
-Coffee Recommender Website
+
 Welcome to the Coffee Recommender Website! This simple interactive quiz helps users find their ideal coffee based on their preferences for strength, milk, and sweetness. It’s built using HTML, CSS, and JavaScript.
 
 Features
