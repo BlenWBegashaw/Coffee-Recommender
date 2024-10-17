@@ -1,0 +1,65 @@
+/* Basic styling for the coffee recommender website */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.question {
+    margin: 20px 0;
+}
+
+.question h2 {
+    font-size: 1.2em;
+}
+
+button {
+    background-color: #8B4513;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #A0522D;
+}
+
+.hidden {
+    display: none;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+#result p {
+    font-size: 1.5em;
+    font-weight: bold;
+}
