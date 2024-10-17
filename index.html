@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Recommender</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Coffee Recommender</h1>
+        <p>Answer a few questions to find your perfect coffee!</p>
+
+        <div id="quiz">
+            <div class="question">
+                <h2>How strong do you like your coffee?</h2>
+                <label><input type="radio" name="strength" value="strong"> Strong</label><br>
+                <label><input type="radio" name="strength" value="medium"> Medium</label><br>
+                <label><input type="radio" name="strength" value="light"> Light</label>
+            </div>
+
+            <div class="question">
+                <h2>How do you prefer your milk?</h2>
+                <label><input type="radio" name="milk" value="none"> No Milk</label><br>
+                <label><input type="radio" name="milk" value="little"> A Little</label><br>
+                <label><input type="radio" name="milk" value="lot"> A Lot</label>
+            </div>
+
+            <div class="question">
+                <h2>Do you like your coffee sweet?</h2>
+                <label><input type="radio" name="sweetness" value="yes"> Yes</label><br>
+                <label><input type="radio" name="sweetness" value="no"> No</label>
+            </div>
+
+            <button id="submit">Get Recommendation</button>
+        </div>
+
+        <div id="result" class="hidden">
+            <h2>Your Coffee Recommendation:</h2>
+            <p id="coffee-type"></p>
+            <button id="retry">Try Again</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
